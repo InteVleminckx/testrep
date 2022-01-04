@@ -2,4 +2,4 @@
 
 PW=$1
 
-echo $PW | ./test.sh
+./test.sh

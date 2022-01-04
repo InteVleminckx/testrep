@@ -3,19 +3,20 @@
 #include <vector>
 
 using namespace std;
-
 int main(){
 
-    string name = "InteVleminckx";
-    string repoName = "newRepo";
-    string createGitRepo = "curl -u \"" + name + "\" https://api.github.com/user/repos -d \'{\"name\":\"" + repoName + "\"}\'";
+//    string name = "InteVleminckx";
+//    string repoName = "newRepo";
+//    string createGitRepo = "curl -u \"" + name + "\" https://api.github.com/user/repos -d \'{\"name\":\"" + repoName + "\"}\'";
+//
+//    string token = "InteVleminckx9";
+//
+//
+////    string vcsCommand = "cd \"$(find \"$(cd ..; pwd)\" -name \"Control\")\" && ./vcs.sh " + token;
+//    string vcsCommand = "cd \"$(find \"$(cd ..; pwd)\" -name \"Control\")\" && ./vcs.sh " + name;
+//
+//    //zoeken naar de control folder en de de file uitvoeren
+//    system(vcsCommand.c_str());
 
-    string token = "InteVleminckx9";
 
-
-//    string vcsCommand = "cd \"$(find \"$(cd ..; pwd)\" -name \"Control\")\" && ./vcs.sh " + token;
-    string vcsCommand = "cd \"$(find \"$(cd ..; pwd)\" -name \"Control\")\" && ./vcs.sh " + name;
-
-    //zoeken naar de control folder en de de file uitvoeren
-    system(vcsCommand.c_str());
 }
