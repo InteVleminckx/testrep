@@ -7,6 +7,8 @@ using namespace std;
 class A {
 public:
 
+    void in();
+
     A& operator=(const A& rhs){
 
         cout << "ies" << endl;
@@ -14,6 +16,10 @@ public:
     }
 
 };
+
+void A::in() {
+
+}
 
 
 int main(){
