@@ -11,7 +11,7 @@ public:
 
     A& operator=(const A& rhs){
 
-        cout << "ies" << endl;
+        cout << "is" << endl;
 
     }
 
