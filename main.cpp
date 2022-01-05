@@ -9,7 +9,7 @@ public:
 
     A& operator=(const A& rhs){
 
-        cout << "iets" << endl;
+        cout << "ies" << endl;
 
     }
 
