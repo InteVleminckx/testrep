@@ -11,7 +11,7 @@ public:
 
     A& operator=(const A& rhs){
 
-        cout << "is" << endl;
+        cout << "ifgit cs" << endl;
 
     }
 
