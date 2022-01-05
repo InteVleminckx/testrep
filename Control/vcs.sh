@@ -2,4 +2,4 @@
 
 PW=$1
 
-./test.sh
+./test.s
